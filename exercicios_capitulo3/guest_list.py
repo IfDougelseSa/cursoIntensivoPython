@@ -8,3 +8,4 @@ print(f'You have been invited for a dinner {list[2].title()}.')
 
 
 
+
