@@ -1,4 +1,6 @@
-list = [1, 2, 3, 4, 5, 6]
+list = []
 
-
-print(list[3:])
+if list:
+    print("tem algo na lista")
+else:
+    print("A lista está vazia")

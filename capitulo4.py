@@ -63,7 +63,33 @@ Assim temos duas listas independentes.
 caso fazer nova_lista = list
 Quando for adicionar um elemento em uma, será adicionado na outra lista também.
 
+Tuplas
 
+Uma lista imutável é chamado de tupla
+A lista é detonada por [] e a tupla por ()
+
+Não é possível alterar o valor d euma tupla.
+
+É possível percorrer os valores de uma tupla com um laço
+Exemplo:
+
+dimensions = (200, 50)
+for dimension in dimensions:
+    print(dimension)
+
+Apesar de não ser possivel alterar uma tupla, é possível rescreve-la
+
+Exemplo:
+
+dimension = (200, 50)
+print(dimension)
+
+dimension = (100, 25)
+print(dimension)
+
+As tuplas são usadas quando queremos escrever valores que não serão alterados no programa.
 
 
 """
+
+
