@@ -1,7 +1,9 @@
-# Prato Favorito
+# favorite numbers
 
-ingredientes = ["salmao", "cream cheese", "alga nori"]
+numbers = {'Sabrina': 7,
+           'Douglas': 42,
+           'Diogo': 10,
+           'Guilherme': 22,
+           'Daniela': 1000}
 
-
-print(f'Os ingredientes do meu prato favorito são{ingredientes}')
-
+print(numbers)

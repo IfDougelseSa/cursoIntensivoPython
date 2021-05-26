@@ -1,6 +1,4 @@
-list = []
+dicionario = {"ola": 1, "oi": 2}
 
-if list:
-    print("tem algo na lista")
-else:
-    print("A lista está vazia")
+
+print(dicionario.keys())
