@@ -22,5 +22,37 @@ Usando continue em um laço
 
 Server para "ignorar" e voltar para o laço
 
+Usando laços com listas e dicionários
+
+Um laço for é eficiente para percorrer uma lista, mas não se deve modificar uma lista em um laço for,
+pois o Python terá problemas para manter o controle da lista. Para modificar uma lista enquanto trabalha
+com ela, é melhor utilizar o while.
+
+Removendo todas as instâncias de valores específicos em uma lista
+
+list = ['value', 'value']
+
+while 'value' in list:
+    list.remove('value')
+
+Com isso, todos os valores value serão removidos da lista
+
+Preenchendo um dicionário com dados de entrada do usuário
+
+Exemplo:
+
+Definir uma flag e um dicionario vazio. Depois, fazer perguntar para adicionar no dicionário e se quiser
+encerrar o programar usar um if para mudar a flag para false.
+
+responses = {}
+
+active = True
+
+name = input("Digite seu nome")
+response = input("valor atribuido para a chave")
+
+# Para armazenar no dicionário
+
+responses[name] = response
 
 """
